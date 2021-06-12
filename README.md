@@ -15,13 +15,21 @@ npm i @capsular/nested-js
 
 ## Examples
 
+[nested-js application](https://github.com/h123eranga/nested-js-app)
+
 ```
+
+import { renderContent, div, h1, p } from "@capsular/nested-js"
+
 function App() {
   return div(
     h1('nested-js'),
     p('Welcome to nested-js')
   )
 }
+
+renderContent(App, document.getElementBy('root')
+
 ```
 
 ## License
