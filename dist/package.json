@@ -1,0 +1,15 @@
+{
+    "name": "@capsular/nested-js",
+    "version": "1.0.5",
+    "description": "The library is intriducing a new way of making web templates only using javascript. The purpose of the library is to allow developers to make web applications only using javascript to manage the code easily and for making rich dynamic templates.",
+    "main": "index.js",
+    "scripts": {},
+    "author": "nested-js",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/h123eranga/nested-js"
+    },
+    "devDependencies": {},
+    "dependencies": {}
+  }

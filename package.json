@@ -1,14 +1,19 @@
 {
-  "name": "fm-4",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@capsular/nested-js",
+  "version": "1.0.1",
+  "description": "The library is intriducing a new way of making web templates only using javascript. The purpose of the library is to allow developers to make web applications only using javascript to manage the code easily and for making rich dynamic templates.",
   "main": "main.js",
   "scripts": {
     "dev": "webpack --mode development",
-    "start": "webpack serve --mode development"
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production --config webpack.prod.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "nested-js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h123eranga/nested-js"
+  },
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.2",
