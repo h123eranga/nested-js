@@ -1,6 +1,6 @@
-import { div } from "../../components/elements"
-import { onclick } from "../../components/events"
-import { ref, updateValue } from "../../main"
+import { div } from "../../../components/elements"
+import { onclick } from "../../../components/events"
+import { updateValue } from "../../main"
 
 function footerComponent() {
     let a = 30

@@ -1,12 +1,10 @@
-import { div, h1 } from "../../components/elements";
+import { div, h1 } from "../../../components/elements"
 
-function headerComponent() {
-
-    let b = 20
+function HeaderComponent() {
 
     return div(
-        h1('Header', { b })
+        h1('Header Component')
     )
 }
 
-export default headerComponent
+export default HeaderComponent

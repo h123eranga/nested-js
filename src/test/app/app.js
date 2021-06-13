@@ -1,39 +1,17 @@
-import { attr } from "../../components/attributes"
-import { button, div, input, form, html, p, span, h1 } from "../../components/elements"
-import { onclick, onsubmit, onchange, onfocus, onkeydown, onkeypress, onkeyup } from "../../components/events"
-import { ref, updateRef, updateValue } from "../../main"
-import footerComponent from "../components/footer"
-import headerComponent from "../components/header"
+import { div } from "../../components/elements"
+import HeaderComponent from "./components/header"
+
 
 function App() {
 
-    let a = 10
-
-    function inc() {
-        a++
-        updateValue({ a })
-    }
-
-    // return div(
-    //     h1('Value:', { a }),
-    //     footerComponent(),
-    //     button('CLick', onclick(inc))
-    // )
-
     return div(
-        'test',
-        onclick(inc),
-        {a}
+        'inject a component',
+        HeaderComponent
     )
 
 }
 
 export default App
-
-function test(){
-    let a=20
-    return h1({a})
-}
 
 /*
 

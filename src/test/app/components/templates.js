@@ -1,6 +1,6 @@
-import { href } from './components/attributes.js'
-import { div, h1, p, span, a } from './components/elements.js'
-import { onclick } from './components/events.js'
+import { href } from '../../../components/attributes.js'
+import { div, h1, p, span, a } from '../../../components/elements.js'
+import { onclick } from '../../../components/events.js'
 
 
 class template_1 {
