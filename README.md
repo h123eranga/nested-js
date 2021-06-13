@@ -1,5 +1,5 @@
 # nested-js
-The library is intriducing a new way of making web templates only using javascript. The purpose of the library is to allow developers to make web applications only using javascript to manage the code easily and for making rich dynamic templates.
+The library is introducing a new way of making web templates only using javascript. The purpose of the library is to allow developers to make web applications only using javascript to manage the code easily and for making rich dynamic templates.
 
 ## Features
 
@@ -29,6 +29,35 @@ function App() {
 }
 
 renderContent(App, document.getElementBy('root')
+
+```
+
+## Components
+
+```
+function HeaderComponent() {
+  return div(
+    'Header Component'
+  )
+}
+
+export default HeaderComponent
+
+...
+div(
+  'Inject custom components',
+  
+  HeaderComponent,
+  
+  div('body component'),
+  
+  BodyComponent,
+  
+  span('All rights reserved'),
+  
+  FooterComponent,
+)
+...
 
 ```
 
